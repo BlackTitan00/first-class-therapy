@@ -2804,7 +2804,7 @@ button:disabled,
 }
 
 .spotlight:nth-child(1) {
-  background-color: rgba(0, 0, 0, 0.075);
+  background-color: rgba(0, 0, 0, 0.144);
 }
 
 .spotlight:nth-child(2) {
@@ -3792,10 +3792,10 @@ body.is-menu-visible #menu {
   -webkit-transition: opacity 3s ease-in-out;
   -ms-transition: opacity 3s ease-in-out;
   transition: opacity 3s ease-in-out;
-  -moz-transition-delay: 1.25s;
-  -webkit-transition-delay: 1.25s;
-  -ms-transition-delay: 1.25s;
-  transition-delay: 1.25s;
+  -moz-transition-delay: 0.25s;
+  -webkit-transition-delay: 0.25s;
+  -ms-transition-delay: 0.25s;
+  transition-delay: 0.25s;
   content: "";
   background: #2e3842;
   display: block;
