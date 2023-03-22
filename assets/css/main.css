@@ -1855,6 +1855,11 @@ article.special {
   text-align: center;
 }
 
+.inner header h2:first-child {
+  border-top: solid 2px rgba(0, 0, 0, 0.125);
+  padding-top: 1em;
+}
+
 header p {
   color: rgba(255, 255, 255, 0.5);
   position: relative;
@@ -1872,7 +1877,7 @@ header h6 + p {
 }
 
 header.major {
-  margin: 0 0 3.5em 0;
+  margin: 0 0 0em 0;
 }
 
 header.major h2,
@@ -2874,7 +2879,7 @@ button:disabled,
 /* Wrapper */
 
 .wrapper {
-  padding: 6em 0 4em 0;
+  padding: 2em 0 2em 0;
 }
 
 .wrapper > .inner {
@@ -3727,6 +3732,10 @@ body.is-menu-visible #menu {
   color: inherit;
 }
 
+#banner .title {
+  font-size: 1em;
+}
+
 #banner .more {
   -moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
   -webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
@@ -3811,6 +3820,10 @@ body.is-menu-visible #menu {
 
   #banner .more {
     display: none;
+  }
+
+  #banner .title {
+    font-size: 0.8em;
   }
 }
 
