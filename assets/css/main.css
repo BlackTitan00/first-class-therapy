@@ -4116,3 +4116,8 @@ body.is-mobile.landing .wrapper.style4 {
 body.is-mobile.landing #footer {
   background-color: #1d242a;
 }
+
+/* Form */
+#form {
+  padding: 10px 30px;
+}
