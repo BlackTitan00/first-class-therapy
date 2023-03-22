@@ -1920,6 +1920,10 @@ header.major p {
 
 /* Form */
 
+#form-wrapper {
+  padding: 2em;
+}
+
 form {
   margin: 0 0 2em 0;
 }
@@ -4128,9 +4132,4 @@ body.is-mobile.landing .wrapper.style4 {
 
 body.is-mobile.landing #footer {
   background-color: #1d242a;
-}
-
-/* Form */
-#form {
-  padding: 10px 30px;
 }
